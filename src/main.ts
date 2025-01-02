@@ -9,7 +9,7 @@ import { RedisService } from '@/src/core/redis/redis.service';
 import { ms, type StringValue } from '@/src/shared/utils/ms.util';
 import { parseBoolean } from '@/src/shared/utils/parse-boolean.util';
 
-import { AppModule } from './core/app.module';
+import { AppModule } from './app.module';
 
 async function bootstrap() {
 	const app = await NestFactory.create(AppModule);
